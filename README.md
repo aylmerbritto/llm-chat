@@ -17,6 +17,7 @@ Our goal is to create applications that require high computation, bandwidth, and
 
 ### Large Language Models
 1. **GODEL**:
+   - [Github link](https://github.com/microsoft/GODEL)
    - Open-source model by Microsoft.
    - Trained on 551 million parameters.
    - Provides solid performance without needing internet connectivity.
