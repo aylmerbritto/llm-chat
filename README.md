@@ -24,13 +24,14 @@ Our goal is to create applications that require high computation, bandwidth, and
    - Integrated within the same container as our application backend.
 
 2. **GPT-3.5-Turbo**:
+   - [Github Link](https://github.com/openai/openai-python)
    - From OpenAI, behind ChatGPT.
    - Contains 175 Billion trainable parameters.
    - Highly effective but requires a reliable internet connection.
 
 ## Open Source Components
-- **Langchain**: Framework for LLM-based applications.
-- **Dash**: For building web applications.
+- **[Langchain](https://github.com/langchain-ai/langchain)**: Framework for LLM-based applications.
+- **[Dash](https://github.com/plotly/dash)**: For building web applications.
 - **Hugging-face Embeddings & Sentence-transformers**: For language processing.
 - **GODEL**: For goal-oriented dialog systems.
 
