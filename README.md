@@ -1,14 +1,51 @@
-# llm-chat
+# JIT Cloudlet-Based Chatbot Application for Music Festivals
 
-## Overview
-Our focus centered on managing a music festival, leading to the creation of our first application: an Avicii-themed chatbot assistant. This assistant, designed to help guests with inquiries about the festival, performers, schedule, and stage locations, is supported by two specialized Large Language Model (LLM) backends. These backends are expertly tailored to provide accurate and context-specific responses related to the music festival. <br>
-One of our Large Language Models, named GODEL, is an open-source model developed by Microsoft for crafting goal-oriented dialog systems. It is integrated directly within the same container as our application backend. Trained on 551 million parameters, GODEL offers solid performance while eliminating the need for internet connectivity. <br>
-The second model we use is the renowned GPT-3.5-Turbo from OpenAI, the driving force behind ChatGPT. With a significantly higher number of trainable parameters (175 Billion), this model excels in effectiveness. However, this efficiency comes at a price and requires a reliable internet connection, which can be a challenging dependency.
 
 ## Getting Started
-
-### Prerequisites
-yet to update stuff
-
 ### Launch application
 To run the server, `python3 app.py`
+
+## Overview
+This project leverages the innovative Just-in-Time (JIT) Cloudlet architecture to develop edge-native applications. Our primary application is an Avicii-themed chatbot assistant, designed for use at music festivals.
+
+## Motivation
+Our goal is to create applications that require high computation, bandwidth, and low latency. Utilizing JIT Cloudlet architecture, this project demonstrates the development and deployment of edge-native applications, showcasing their real-world effectiveness.
+
+## Chatbot Application Features
+- **Purpose**: Assists festival-goers with information about the festival, including performers, schedule, and stage locations.
+- **Backed by Two LLMs**: The application integrates two specialized Large Language Model backends for accurate, context-specific responses.
+
+### Large Language Models
+1. **GODEL**:
+   - Open-source model by Microsoft.
+   - Trained on 551 million parameters.
+   - Provides solid performance without needing internet connectivity.
+   - Integrated within the same container as our application backend.
+
+2. **GPT-3.5-Turbo**:
+   - From OpenAI, behind ChatGPT.
+   - Contains 175 Billion trainable parameters.
+   - Highly effective but requires a reliable internet connection.
+
+## Open Source Components
+- **Langchain**: Framework for LLM-based applications.
+- **Dash**: For building web applications.
+- **Hugging-face Embeddings & Sentence-transformers**: For language processing.
+- **GODEL**: For goal-oriented dialog systems.
+
+## Innovation
+- **Privacy-Focused Cloud Model**: Data remains private to the cloudlet machine, enhancing data privacy.
+- **Selective Data Masking**: Exchanges only tokens with APIs, keeping sensitive data within premises.
+
+## Challenges
+- **Documentation and Development**: Langchain's documentation required us to explore the codebase for optimal use.
+- **NVIDIA-CUDA and ARM Architecture Compatibility**: Standardizing the base image for compatibility and efficiency was challenging.
+
+## Future Work
+- **GODEL Fine-Tuning**: To demonstrate robustness without cloud-based services.
+- **Improving Temporal Coherence**: For smoother real-time output.
+
+---
+
+This README provides a concise overview of the JIT Cloudlet-based chatbot application, highlighting its motivation, features, technology stack, innovations, challenges, and future work directions.
+
