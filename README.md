@@ -21,7 +21,7 @@ Our goal is to create applications that require high computation, bandwidth, and
    - Open-source model by Microsoft.
    - Trained on 551 million parameters.
    - Provides solid performance without needing internet connectivity.
-   - Integrated within the same container as our application backend.
+   - Integrated within the same container as our application backend
 
 2. **GPT-3.5-Turbo**:
    - [Github Link](https://github.com/openai/openai-python)
